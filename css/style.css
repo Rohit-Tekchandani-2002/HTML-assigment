@@ -15,7 +15,6 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 table { border-collapse: collapse; border-spacing: 0; }
 
 /* General  */
-
 * { outline: none !important; }
 .window-resizing *, body:not(.page-loaded) *{transition: none!important; }
 a{transition: all 0.3s;}
@@ -42,7 +41,6 @@ input[type=text], input[type=email], input[type=password], textarea { -webkit-ap
 select:-moz-focusring { color: transparent; text-shadow: 0 0 0 #000; }
 option:not(:checked) { color: black; }
 
-<<<<<<< HEAD
 /* Root  */
 :root{
     --main-black:        #0000000A;
@@ -219,7 +217,6 @@ body.toggle-sidebar{overflow: hidden;}
 .form-check-input:checked[type=checkbox]{background-image: url("../images/check-tick-active.svg");}
 .form-title{margin-top: 20px;}
 .inner-page-form .button-list{display: flex;align-items:center ;margin-bottom: 40px;}
-<<<<<<< HEAD
 .btn-primary{background-color: var(--main-red); color: #ffffff;padding: 11px 30px;font-size: 18px;line-height: 21px;font-weight: 500;transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);border: 1px solid var(--main-red); border-radius: 50px; margin-right: 20px;}
 .btn-outline-primary{background-color: #fff; border-color: var(--main-red); color: var(--main-red); padding: 11px 30px; font-size: 18px; line-height: 22px; border-radius: 50px;}
 .btn-primary:hover,.btn-primary:focus{background-color: #8c1921;border-color: var(--main-red); box-shadow: none;}
@@ -234,7 +231,6 @@ body.toggle-sidebar{overflow: hidden;}
 .inner-page-form .alert-primary{background-color: #fff;color: #00B9E1;font-size: 15px;line-height: 18px;padding: 11px 19px;border-color: #00B9E1;border-radius:5px ;}
 .inner-page-form .alert-success{background-color: #fff;color: #00AF27;font-size: 15px;line-height: 18px;padding: 11px 19px;border-color: #00AF27;border-radius:5px ;}
 
-<<<<<<< HEAD
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover,.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{border-color: transparent; color: #505050;}
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{border-bottom: 3px solid var(--main-red); color: var(--main-red); font-weight: 500;}
 .nav-link{color: var(--main-grey); font-size: 15px; line-height: 18px; padding: 14px 18px;}
@@ -268,7 +264,6 @@ body.toggle-sidebar{overflow: hidden;}
     .login-button a{white-space: nowrap;}
     .responsive-chart{display: flex;}
     .sales-chart .legend{justify-content: center;}
-<<<<<<< HEAD
     
     }
     @media (max-width:991px) {
@@ -332,4 +327,3 @@ body.toggle-sidebar{overflow: hidden;}
         .detail h5{font-size: 14px;}
 
      }
-
